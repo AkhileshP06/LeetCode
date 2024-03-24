@@ -8,7 +8,7 @@ Each question is organized into its own folder. Inside each folder, you'll find 
 
 Commit Messages
 
-I used a chrome extension called "LeetHub" which automatically pushes accepted solution in github to a linked github repository. I highly reccomend using it. It also create custom commit messages for each solution based on the solve statistics (time and space compexities and how they compare to other solutions on leetcode).
+I used a chrome extension called "LeetHub" which automatically pushes accepted solutions in leetcode to a linked github repository. I highly reccomend using it. It also create custom commit messages for each solution based on the solve statistics (time and space compexities and how they compare to other solutions on leetcode).
 
 Contributions
 
