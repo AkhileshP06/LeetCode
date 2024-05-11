@@ -14,7 +14,7 @@ Feel free to browse through the solutions in this repository to understand diffe
 
 To use the solutions, simply clone this repository to your local machine:
 
-```bash
+```bash```
 git clone https://github.com/AkhileshP06/LeetCode.git
 
 ## Contributing
