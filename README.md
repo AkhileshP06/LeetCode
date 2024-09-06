@@ -1,105 +1,31 @@
-hi
-Commit made on 2024-05-26
-Commit made on 2024-05-27
-Commit made on 2024-05-28
-Commit made on 2024-05-29
-Commit made on 2024-05-30
-Commit made on 2024-05-31
-Commit made on 2024-06-01
-Commit made on 2024-06-02
-Commit made on 2024-06-03
-Commit made on 2024-06-04
-Commit made on 2024-06-05
-Commit made on 2024-06-06
-Commit made on 2024-06-07
-Commit made on 2024-06-08
-Commit made on 2024-06-09
-Commit made on 2024-06-10
-Commit made on 2024-06-11
-Commit made on 2024-06-12
-Commit made on 2024-06-13
-Commit made on 2024-06-14
-Commit made on 2024-06-15
-Commit made on 2024-06-16
-Commit made on 2024-06-17
-Commit made on 2024-06-18
-Commit made on 2024-06-19
-Commit made on 2024-06-20
-Commit made on 2024-06-21
-Commit made on 2024-06-22
-Commit made on 2024-06-23
-Commit made on 2024-06-24
-Commit made on 2024-06-25
-Commit made on 2024-06-26
-Commit made on 2024-06-27
-Commit made on 2024-06-28
-Commit made on 2024-06-29
-Commit made on 2024-06-30
-Commit made on 2024-07-01
-Commit made on 2024-07-02
-Commit made on 2024-07-03
-Commit made on 2024-07-04
-Commit made on 2024-07-05
-Commit made on 2024-07-06
-Commit made on 2024-07-07
-Commit made on 2024-07-08
-Commit made on 2024-07-09
-Commit made on 2024-07-10
-Commit made on 2024-07-11
-Commit made on 2024-07-12
-Commit made on 2024-07-13
-Commit made on 2024-07-14
-Commit made on 2024-07-15
-Commit made on 2024-07-16
-Commit made on 2024-07-17
-Commit made on 2024-07-18
-Commit made on 2024-07-19
-Commit made on 2024-07-20
-Commit made on 2024-07-21
-Commit made on 2024-07-22
-Commit made on 2024-07-23
-Commit made on 2024-07-24
-Commit made on 2024-07-25
-Commit made on 2024-07-26
-Commit made on 2024-07-27
-Commit made on 2024-07-28
-Commit made on 2024-07-29
-Commit made on 2024-07-30
-Commit made on 2024-07-31
-Commit made on 2024-08-01
-Commit made on 2024-08-02
-Commit made on 2024-08-03
-Commit made on 2024-08-04
-Commit made on 2024-08-05
-Commit made on 2024-08-06
-Commit made on 2024-08-07
-Commit made on 2024-08-08
-Commit made on 2024-08-09
-Commit made on 2024-08-10
-Commit made on 2024-08-11
-Commit made on 2024-08-12
-Commit made on 2024-08-13
-Commit made on 2024-08-14
-Commit made on 2024-08-15
-Commit made on 2024-08-16
-Commit made on 2024-08-17
-Commit made on 2024-08-18
-Commit made on 2024-08-19
-Commit made on 2024-08-20
-Commit made on 2024-08-21
-Commit made on 2024-08-22
-Commit made on 2024-08-23
-Commit made on 2024-08-24
-Commit made on 2024-08-25
-Commit made on 2024-08-26
-Commit made on 2024-08-27
-Commit made on 2024-08-28
-Commit made on 2024-08-29
-Commit made on 2024-08-30
-Commit made on 2024-08-31
-Commit made on 2024-09-01
-Commit made on 2024-09-02
-Commit made on 2024-09-03
-Commit made on 2024-09-04
-Commit made on 2024-09-05
-Commit made on 2024-09-06
+
+### LeetCode
+
+This repository contains compilation of my solutions for various LeetCode questions. I use LeetCode as a platform to practice Data Structures and Algorithms  and I document my solutions here for reference.
+
+
+## Structure
+Each question is organized into its own folder. Inside each folder, you'll find a README file containing the problem description. You will also find the solution for that problem in either java or python inside that directory.
+
+I used a chrome extension called [LeetHub](https://chromewebstore.google.com/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi) by  [@Qasim Wani](https://github.com/QasimWani) which automatically pushes accepted solutions in leetcode to my linked github repository. I highly reccomend using it. It also creates custom commit messages for each solution based on the solve statistics (time and space compexities and how they compare to other solutions on leetcode).
+## Usage
+
+Feel free to browse through the solutions in this repository to understand different approaches to solving LeetCode problems. You can also use these solutions as a reference when practicing or preparing for coding interviews. Each solution includes detailed comments explaining the thought process and implementation details.
+
+To use the solutions, simply clone this repository to your local machine:
+
+```git clone https://github.com/AkhileshP06/LeetCode.git```
+
+## Contributing
+
+If you'd like to contribute to this repository, you're welcome to do so! Contributions can include adding new solutions, improving existing ones, fixing bugs, or providing better explanations. To contribute, follow these steps:
+
+1. Fork this repository.
+2. Create a new branch (git checkout -b feature/your-feature).
+3. Make your changes.
+4. Commit your changes (git commit -am 'Add some feature').
+5. Push to the branch (git push origin feature/your-feature).
+6. Create a new Pull Request.
+
+## Contact
+If you have any questions or suggestions regarding this repository, feel free to contact me at akhileshnair2003@gmail.com.
