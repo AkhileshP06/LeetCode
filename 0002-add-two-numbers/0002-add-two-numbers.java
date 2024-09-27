@@ -8,46 +8,35 @@
  * }
  */
 class Solution {
-    private ListNode result, lastPtr;
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-       int bal = 0;
-        for (ListNode ptr1 = l1, ptr2 = l2; ptr1 != null || ptr2 != null;) {
-            int sum = 0;
-            if (ptr1 == null && ptr2 != null) {
-                sum = ptr2.val;
-                ptr2 = ptr2.next;
-            } else if (ptr2 == null && ptr1 != null) {
-                sum = ptr1.val;
-                ptr1 = ptr1.next;
-            } else {
-                sum = ptr1.val + ptr2.val;
-                ptr1 = ptr1.next;
-                ptr2 = ptr2.next;
-            }
-            sum += bal;
-            if (sum > 9) {
-                sum = sum % 10;
-                addToResult(sum);
-                bal = 1;
-            } else {
-                addToResult(sum);
-                bal = 0;
-            }    
+        ListNode dummyHead = new ListNode(0); // Dummy head to simplify edge cases
+        ListNode current = dummyHead; // Pointer to build the result list
+        int carry = 0; // Store carry-over value
+
+        // Iterate through both lists until both pointers are null
+        while (l1 != null || l2 != null) {
+            // Get the values from both lists, or 0 if the list has been fully traversed
+            int val1 = (l1 != null) ? l1.val : 0;
+            int val2 = (l2 != null) ? l2.val : 0;
+
+            // Calculate sum and update carry
+            int sum = val1 + val2 + carry;
+            carry = sum / 10; // New carry for the next iteration
+
+            // Create a new node for the current digit of the sum
+            current.next = new ListNode(sum % 10);
+            current = current.next;
+
+            // Move to the next nodes in the input lists
+            if (l1 != null) l1 = l1.next;
+            if (l2 != null) l2 = l2.next;
         }
-        if (bal == 1) {
-            addToResult(bal);
+
+        // If there's any remaining carry, add it as the last node
+        if (carry > 0) {
+            current.next = new ListNode(carry);
         }
-        return result;
-    }
-    
-    private void addToResult(int val) {
-        ListNode newNode = new ListNode(val);
-        if (result == null) {
-            result = newNode;
-            lastPtr = newNode;
-        } else {
-            lastPtr.next = newNode;
-            lastPtr = newNode;
-        }
+
+        return dummyHead.next; // Return the head of the result list, skipping the dummy head
     }
 }
