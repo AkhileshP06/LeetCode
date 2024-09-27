@@ -2,10 +2,6 @@ class Solution
 {
     public String longestCommonPrefix(String[] strs) 
     {
-        if(strs.length == 0)
-        {
-            return "";
-        }
         String pref = strs[0];
         for(String s : strs)
         {
