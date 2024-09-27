@@ -50,15 +50,4 @@ class Solution {
             lastPtr = newNode;
         }
     }
-    
-    private void print(ListNode node) {
-        StringBuilder str = new StringBuilder();
-        for (ListNode ptr1 = node; ptr1 != null; ptr1 = ptr1.next) {
-            if (!str.equals("")) {
-                str.append(",");
-            }
-            str.append(ptr1.val);
-        }
-        System.out.println("["+str.toString()+"]");
-    }
 }
